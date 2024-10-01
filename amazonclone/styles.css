@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.bar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 27, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    width: 100px;
+    height: 60px;
+}
+select{
+
+    width: 60px;
+}
+.selector{
+    display: flex;
+}
+#searchicon{
+    background-color: orange;
+}
+#location{
+    color: white;
+}
+.sampleloc
+{
+    display: flex;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.selector:hover{
+    border: 1px solid orange;
+}
+.hdiv{
+    color: white;
+}
+.hdiv:hover{
+    border:1px solid white
+}
+.h2div{
+    font-weight: 700;
+}
+.rdiv:hover{
+    border:1px solid white
+}
+.cart{
+    color:white
+}
+.cart:hover{
+    border:1px solid white
+}
+.menu{
+   background-color: rgb(29, 40, 78);
+    height: 60px;
+    display: flex;
+   align-items: center;
+}
+.content{
+    margin-left: 10px;
+}
+.fab{
+    color: white;
+}
+/* .bar3{
+    width: 300%;
+    height: 150px;
+    background-color: rgba(179, 38, 132, 0.714);
+
+} */
+.main{
+    height: 290px;
+    width: 100%;
+}
+.message{
+    background-color:white ;
+    height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 350px;
+left: 280px;
+}
+.lastbar{
+    background-color: rgb(59, 148, 148);
+    height: 1100px;
+    margin: 0;
+}
+.box{
+    width: 350px;
+    margin: 20px;
+    height: 350px;
+    background-color:white;
+    border: 2px solid white;
+}
+.col{
+    display: flex;
+}
+.dress2{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress3{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress4{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress5{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress6{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress7{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress8{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.dress9{
+    width: 315px;
+height: 300px;
+padding: 5px;
+}
+.see:hover{
+    color: brown;
+}
+.f1bar{
+    height: 250px;
+    background-color:white;
+    margin-top: 30px;
+}
+.books{
+    width: 155px;
+height: 200px;
+    padding-left:8px;
+}
+.midbar{
+    height: 50px;
+    background-color: rgb(25, 67, 90);
+    color: white;
+}
+.bclass{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.finalbar{
+    height: 200px;
+    background-color: rgb(2, 26, 39);
+    display: flex;
+    justify-content: space-evenly;
+}
+.click:hover{
+    color: red;
+}
+.container{
+position: relative;
+}
+.imagelists{
+    display: flex;
+}
+.imgitem{
+min-width: 100%;
+/*transform: translateX(-200%);*/
+transition: transform 0.5;
+}
+.imgitem img{
+    width: 100%;
+    height: 100%;
+}
+.btncontainer{
+position: absolute;
+top:0;
+display: flex;
+justify-content:space-between;
+width: 100%;
+}
+.btn1{
+border: 2px solid transparent;
+padding: 100px 20px;
+font-size: 50px;
+font-weight: 300;
+background-color: transparent;
+color: black;
+}
+.btn1 i{
+    font-weight: 900;
+}
+.btn1:focus{
+    border-color: seagreen;
+    box-shadow: -2px -2px 2px white,
+    2px 2px 2px white;
+    margin: 2px;
+}
+.hov:hover{
+    scale: 1.2;
+}
+.finalbar:hover{
+    color: brown;
+}
+.midbar:hover{
+    color: brown;
+}
+.bclass:hover{
+    color: brown;
+}
